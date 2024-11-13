@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: grey;
+}
+
+nav a {
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: rgba(255, 255, 255, 0.836);
+  border-radius: 10px;
+}
+
+.container {
+  margin: 10px auto;
+  width: 80%;
+  box-shadow: 16px 16px 30px -4px rgba(0, 0, 0, 0.62);
+}
+
+.container .biodata {
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+}
+
+.container .biodata img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.perkenalan {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.perkenalan p {
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .container .biodata {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.logo a:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.container .tentang {
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .pengalaman {
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .pendidikan {
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+th {
+  background-color: grey;
+  color: white;
+  padding: 12px;
+  border: 2px solid white;
+}
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) td {
+  background-color: #e6e6e6;
+}
+td {
+  padding: 8px;
+  border: 2px solid white;
+  text-align: left;
+}
+
+ul {
+  margin: 10px 10px;
+  list-style-type: square;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .kontak {
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
